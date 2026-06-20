@@ -103,6 +103,7 @@ $ jsos stats
 | [5-Interview-Prep](5-Interview-Prep/) | 8-phase AI prep engine, 32 behavioral questions, 53-question company research |
 | [6-Strategy](6-Strategy/) | Full playbook — channel data, daily ops ritual, the Rule of Three |
 | [7-Situations](7-Situations/) | Situational guides — when you're stuck at any stage of the funnel |
+| [skills/](skills/) | Claude Code slash commands — `/generate-resume`, `/cold-email`, `/interview-prep`, and more |
 | [PHILOSOPHY.md](PHILOSOPHY.md) | The 4Ps framework — the mental model that holds the whole system together |
 
 ---
