@@ -9,27 +9,27 @@ A diagnostic guide for every common stuck point in a job search. Find your situa
 Before doing anything, answer these three questions:
 
 1. **Are emails going out?** (Track 1 running at volume?)
-2. **Are replies coming in?** (Reply rate above 30%?)
+2. **Are interviews coming in?** (Interview conversion above 3%?)
 3. **Are calls being booked?** (2+ HM/founder calls per week?)
 
 That tells you exactly where the break is.
 
 ```
-Emails going out? → No  →  Situation G: Momentum collapsed
-                  → Yes ↓
-Reply rate ≥ 30%? → No  →  Situation A: Email isn't working
-                  → Yes ↓
-2+ calls/week?   → No  →  Situation B: Replies but no meetings
-                  → Yes ↓
-Converting?       → No  →  Situation C or D: Interview problem
-                  → Yes →  System is working. Keep running it.
+Emails going out?          → No  →  Situation G: Momentum collapsed
+                           → Yes ↓
+Interview conv. rate ≥ 3%? → No  →  Situation A: Email isn't working
+                           → Yes ↓
+2+ calls/week?             → No  →  Situation B: Replies but no meetings
+                           → Yes ↓
+Converting?                → No  →  Situation C or D: Interview problem
+                           → Yes →  System is working. Keep running it.
 ```
 
 ---
 
 ## Situation A — No Replies to Cold Emails
 
-**What it looks like:** Sending consistently, reply rate below 30% after 50+ sends.
+**What it looks like:** Sending consistently, interview conversion below 3% after 50+ sends.
 
 **What it usually means:** The email itself. Not the channel. Cold email to founders is the highest-leverage channel in a job search — if it's not working, the problem is the email, not the approach.
 
@@ -49,13 +49,13 @@ Converting?       → No  →  Situation C or D: Interview problem
 - Are you emailing companies that are genuinely interesting to you? Personalization is detectable — if you don't care, it shows.
 - Has it been fewer than 2 weeks at this stage? Give the system time before declaring it broken.
 
-**Trigger:** Fix when reply rate < 30% **after 50+ sends**. Don't optimize before you have signal.
+**Trigger:** Fix when interview conversion is below 3% **after 50+ sends**. Don't optimize before you have signal.
 
 ---
 
 ## Situation B — Getting Replies but No Meetings Booked
 
-**What it looks like:** Good reply rate (30%+), but replies aren't converting to scheduled calls. HM+ rate below 40%.
+**What it looks like:** Interviews are happening (conversion above 3%), but they're not converting to second rounds or HM calls. HM+ rate below 40%.
 
 **What it usually means:** One of three things:
 1. You're reaching the wrong person (recruiting/HR instead of hiring manager or founder)

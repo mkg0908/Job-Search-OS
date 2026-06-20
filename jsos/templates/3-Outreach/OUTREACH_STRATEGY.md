@@ -1,21 +1,25 @@
 # Cold Email Outreach Strategy
 
-A data-backed system for running high-volume, personalized cold email outreach to startup founders and hiring managers. Built on real results from 3 months of active searching.
+A data-backed system for running high-volume, personalized cold email outreach to startup founders and hiring managers.
+
+> Numbers below are based on personal job search data, not industry benchmarks. Your numbers will differ, but the directional signal should hold.
 
 ---
 
 ## The Core Insight
 
-**Cold emails to founders outperform cold applications by 2–3x.**
+**Cold emails to founders convert to interviews at 5–8x the rate of cold applications** — and those interviews go directly to founders, skipping the recruiter filter entirely.
 
-| Channel | Expected HM+ Rate |
-|---|---|
-| Cold Emails + LinkedIn (direct to founder) | 50–65% |
-| Networking (warm intros) | 45–55% |
-| Cold Applications (ATS) | 35–45% |
-| Inbound (job boards, referrals) | 25–35% |
+| Channel | Interview Conv. Rate | Of those interviews: HM+ Rate |
+|---|---|---|
+| Cold Emails + LinkedIn (direct to founder) | **5–8%** | **~67%** reach HM/Founder |
+| Cold Applications (ATS) | **~1%** | ~44% reach HM |
+| Networking (warm intros) | N/A | ~50% reach HM |
+| Inbound (job boards) | N/A | ~29% reach HM |
 
-The leverage is in the numerator — getting in front of a founder directly rather than competing in an ATS queue. But volume without personalization kills reply rate. This system solves both.
+The HM+ rate measures what happens *after* an interview starts. Cold email wins twice: it converts better to interviews, and those interviews are with the people who can actually make a hiring decision.
+
+The leverage is in getting in front of a founder directly rather than competing in an ATS queue. But volume without personalization kills conversion. This system solves both.
 
 ---
 
@@ -118,8 +122,8 @@ Fill in the 3 things per send:
 | Track 3: Big companies (polished, role-specific) | 5 emails/week | Sunday/Monday batch |
 
 If you do 25 emails/day for 2 weeks:
-- 350 emails → ~175–220 replies at 50–65% rate → ~175 founder-level conversations
-- That's more pipeline than 6 months of cold applications combined
+- 350 emails → ~18–28 interviews at 5–8% conversion → ~12–19 HM/Founder conversations (at ~67% HM+ rate)
+- That's more quality pipeline than 6 months of cold applications combined (which would yield ~3–4 interviews from the same volume)
 
 ---
 

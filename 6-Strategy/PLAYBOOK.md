@@ -1,6 +1,6 @@
 # Job Search Playbook
 
-The strategic framework that runs the search. Built from 3 months of active data and real results.
+The strategic framework that runs the search. Built from tracking every outreach and interview across a real job search.
 
 ---
 
@@ -22,16 +22,16 @@ Run three tracks in parallel every day. Not in sequence. Not one at a time. All 
 
 ## What the Data Says
 
-Job search funnel by channel (based on real 3-month data):
+> Numbers below are based on personal job search data. Your results will vary — but the directional signal should hold.
 
-| Channel | HM+ Rate (meeting with HM or founder) |
-|---|---|
-| Cold Email + LinkedIn (direct to founder) | 50–65% |
-| Networking (warm intros) | 45–55% |
-| Cold Applications (ATS) | 35–45% |
-| Inbound (job boards) | 25–35% |
+| Channel | Interview Conv. Rate | Of those interviews: HM+ Rate |
+|---|---|---|
+| Cold Email + LinkedIn (direct to founder) | **5–8%** | **67%** reach HM/Founder |
+| Cold Applications (ATS) | **~1%** | 44% reach HM |
+| Networking (warm intros) | N/A | 50% reach HM |
+| Inbound (job boards) | N/A | 29% reach HM |
 
-**The insight:** Cold email to founders is the highest-leverage activity, full stop. Every hour spent personalizing a cold email outperforms an hour on ATS applications by 2–3x.
+**The insight:** Cold email to founders is the highest-leverage activity, full stop. Cold emails convert to interviews at 5–8x the rate of cold applications, and those interviews skip the recruiter bottleneck entirely — going directly to founders and hiring managers.
 
 The system here automates the personalization with AI so you can run volume and quality at the same time.
 
@@ -51,10 +51,10 @@ The system here automates the personalization with AI so you can run volume and 
 5. Send same day
 6. Track in `3-Outreach/tracker_template.csv`
 
-**Volume math:**
+**Volume math (based on real data):**
 25 emails/day × 20 work days = 500 emails/month
-At 50% reply rate = 250 conversations
-At 30% conversion to HM call = 75 calls/month
+At 5% interview conversion = 25 interviews/month
+At 67% HM+ rate = ~17 HM/Founder conversations/month
 
 ---
 
@@ -111,8 +111,8 @@ These are locked — don't second-guess them during execution:
 - **Startups first** for the active sprint (fast hiring cycles, founder direct access).
 - **Big companies as lagging insurance**, not the primary pipeline.
 - **No new strategy additions** once you're running. Execute what's locked.
-- **If reply rate drops below 30%**, fix the email — don't change the channel.
-- **If HM calls < 2/week**, audit the top of the funnel (are you reaching the right people?) and the email itself.
+- **If interview conversion drops below 3%** after 50+ sends, fix the email — don't change the channel.
+- **If HM calls < 2/week**, audit who you're reaching (founders vs. HR vs. wrong company stage) and the email itself.
 
 ---
 

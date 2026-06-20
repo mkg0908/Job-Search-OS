@@ -36,6 +36,8 @@ This is the volume game. Not volume for its own sake — personalized volume, ta
 
 Pipeline is also an insurance policy. When one process goes quiet, another is warming up. When one offer doesn't come through, two others are in motion. The emotional experience of a job search is directly correlated with how full your pipeline is. An empty pipeline is not just a strategic problem. It's a psychological one.
 
+Cold emails convert to interviews at significantly higher rates than cold applications — and those interviews go directly to founders, skipping the recruiter filter entirely.
+
 The three-track system in `6-Strategy/PLAYBOOK.md` exists to keep the pipeline full by design:
 
 - **Track 1** — your scored shortlist, 25 emails/day, pre-filtered for fit. This is the engine.
