@@ -47,6 +47,8 @@ cd ~/my-job-search
 
 Fill in `1-Profile/YOUR_context.md` — this is the one file everything else reads from. Then run whatever you need.
 
+**New here?** Follow [QUICKSTART.md](QUICKSTART.md) — it gets you from install to your first resume or email in one sitting.
+
 ---
 
 ## What It Looks Like
@@ -224,6 +226,9 @@ jsos list
 ```
 Job-Search-OS/
 ├── PHILOSOPHY.md                           ← Read this first — the 4Ps framework
+├── QUICKSTART.md                           ← Zero to first output in one sitting
+├── CONTRIBUTING.md                         ← How to contribute
+├── LICENSE                                 ← MIT
 ├── README.md                               ← You are here
 ├── config.yaml                             ← Scoring weights + targeting preferences
 ├── install.sh                              ← One-command install

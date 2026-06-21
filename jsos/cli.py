@@ -256,8 +256,11 @@ def init(path: str | None, force: bool):
     click.echo(f"    {BOLD}jsos score  --stage series-a{RESET}   ← score them by fit")
     click.echo(f"    {BOLD}jsos list{RESET}                      ← see your top targets\n")
     click.echo("─" * 56)
-    click.echo(f"  {G} {BOLD} Workspace ready.{RESET}  Full guide: {dest}/README.md")
+    click.echo(f"  {G} {BOLD} Workspace ready.{RESET}  Full guide: {dest}/QUICKSTART.md")
     click.echo("─" * 56)
+    click.echo(f"\n  {DIM}Claude Code skills included in skills/ — activate with:{RESET}")
+    click.echo(f"    mkdir -p .claude/commands && cp skills/*.md .claude/commands/")
+    click.echo(f"    Then use /generate-resume, /cold-email, /interview-prep in Claude Code\n")
 
 
 # ─── scrape ───────────────────────────────────────────────────────────────────
