@@ -3,7 +3,7 @@ import csv
 from datetime import date, datetime
 from pathlib import Path
 
-from jsos.config import load as load_config, DATA_DIR
+from jsos.config import get_data_dir, load as load_config
 
 
 def _suggest_role(company_size: str, cfg: dict) -> str:
@@ -79,11 +79,12 @@ def score_row(row: dict, cfg: dict) -> dict:
 
 def run(input_csv: Path, output_csv: Path | None = None, shortlist_csv: Path | None = None) -> list[dict]:
     cfg = load_config()
+    data_dir = get_data_dir()
     scoring = cfg.get("scoring", {})
     threshold = scoring.get("threshold", 6)
     limit = scoring.get("shortlist_limit", 80)
 
-    DATA_DIR.mkdir(exist_ok=True)
+    data_dir.mkdir(exist_ok=True)
 
     with open(input_csv, encoding="utf-8-sig") as f:
         rows = list(csv.DictReader(f))
@@ -96,14 +97,14 @@ def run(input_csv: Path, output_csv: Path | None = None, shortlist_csv: Path | N
 
     cols = list(scored[0].keys())
 
-    out = output_csv or DATA_DIR / (input_csv.stem + "_scored.csv")
+    out = output_csv or data_dir / (input_csv.stem + "_scored.csv")
     with open(out, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=cols)
         writer.writeheader()
         writer.writerows(scored)
 
     shortlist = [r for r in scored if r["alignment_score"] >= threshold][:limit]
-    sl = shortlist_csv or DATA_DIR / "outreach_shortlist.csv"
+    sl = shortlist_csv or data_dir / "outreach_shortlist.csv"
     with open(sl, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=cols)
         writer.writeheader()
